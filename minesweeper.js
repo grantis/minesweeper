@@ -58,11 +58,11 @@ function generateCells (size) {
 
 function startGame () {
   // Don't remove this function call: it makes the game work!
-board.cells[4].isMine = true
-
-for (i = 0; i < board.cells.length; i++) {
-  board.cells[i].surroundingMines = countSurroundingMines(board.cells[i])
-}
+// board.cells[4].isMine = true
+//
+// for (i = 0; i < board.cells.length; i++) {
+//   board.cells[i].surroundingMines = countSurroundingMines(board.cells[i])
+// }
 
 
   lib.initBoard()
